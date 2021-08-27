@@ -15,8 +15,8 @@ With Firebase phone authentication. Using firebase at backend.
 - Share notes with link.
 - Sign Out for users.
 
-[To see video demo: Click Here](https://firebasestorage.googleapis.com/v0/b/binod-c9b57.appspot.com/o/WhatsApp%20Video%202021-08-27%20at%205.23.30%20PM.mp4?alt=media&token=81bde577-9f45-4e10-8be5-5d491e936cda)
-![alt text](https://firebasestorage.googleapis.com/v0/b/binod-c9b57.appspot.com/o/WhatsApp%20Video%202021-08-27%20at%205.23.30%20PM.mp4?alt=media&token=81bde577-9f45-4e10-8be5-5d491e936cda)
+###[To see video demo: Click Here](https://firebasestorage.googleapis.com/v0/b/binod-c9b57.appspot.com/o/WhatsApp%20Video%202021-08-27%20at%205.23.30%20PM.mp4?alt=media&token=81bde577-9f45-4e10-8be5-5d491e936cda)
+[![Video](https://firebasestorage.googleapis.com/v0/b/binod-c9b57.appspot.com/o/WhatsApp%20Video%202021-08-27%20at%205.23.30%20PM.mp4?alt=media&token=81bde577-9f45-4e10-8be5-5d491e936cda)
 A few resources to get you started if this is your first Flutter project:
 
 - [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
