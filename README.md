@@ -1,8 +1,19 @@
-# Secret Notes
+# Secret Notes (Flutter App)
 
-A Flutter project to  create an app
+A Flutter project to create an app for making notes containing text, images, voice.
+With Firebase phone authentication. Using firebase at backend.
 
-## Getting Started
+## Features
+
+- Firebase Phone Authentication
+- Auto OTP verification
+- Profile Picture, User Email input
+- Welcome Notes
+- Star mark for notes to see on top on home screen.
+- Adding new notes with title, body and images.
+- Deleting, editing notes.
+- Share notes with link.
+- Sign Out for users.
 
 This project is a starting point for a Flutter application.
 
