@@ -35,6 +35,10 @@ class ScreensController extends StatelessWidget {
     SystemChrome.setSystemUIOverlayStyle(SystemUiOverlayStyle(
         statusBarColor: Color.fromRGBO(243, 244, 253, 1),
         systemNavigationBarColor: Color.fromRGBO(243, 244, 253, 1)));
+      SystemChrome.setPreferredOrientations([
+    DeviceOrientation.portraitUp,
+    DeviceOrientation.portraitDown
+  ]);
     final auth = Provider.of<AuthProviderl>(context);
     print(auth.status);
     switch(auth.status){
