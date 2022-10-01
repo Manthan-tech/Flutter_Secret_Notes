@@ -130,7 +130,7 @@ void dispose(){
                         auth.getotp(context, smsOtp.text);
                       },
                       onEditingComplete: (){
-                        auth.getotp(context, smsOtp.text);
+                      //  auth.getotp(context, smsOtp.text);
                       },
                       keyboardType: TextInputType.numberWithOptions(signed: false, decimal: false),
                       maxLength: 6,
@@ -157,9 +157,9 @@ void dispose(){
               showresend? 'Resesnd OTP': 'Resend in: $countdown',
               style: TextStyle(
                 // backgroundColor: Colors.yellow.withOpacity(0.4),
-                color: Color.fromRGBO(10, 23, 71, 1),
+                color: Color.fromRGBO(10, 25, 72, 1),
                 fontWeight: FontWeight.bold,
-                fontSize: 18.0,
+                fontSize: 20.0,
               ),
             ),
           ),
@@ -193,7 +193,7 @@ void dispose(){
                         subTitle,
                         phoneForm,
                         Spacer(flex: 2),
-                        resendText
+                        //resendText
                       ],
                     )
                   ],
