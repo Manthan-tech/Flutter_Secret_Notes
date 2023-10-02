@@ -10,7 +10,8 @@ class NoteModel{
   String _id;
   String _link;
   bool _star;
-
+  bool _temp;
+  
   String get title => _title;
   String get id => _id;
   String get note => _note;
@@ -19,6 +20,7 @@ class NoteModel{
   Timestamp get TimeDate => _dateTime;
   String get link => _link;
   bool get star => _star;
+  bool get temp => _temp;
 
   NoteModel.fromSnapshot(DocumentSnapshot snapshot){
     Map data=snapshot.data();
@@ -30,5 +32,6 @@ class NoteModel{
     _note = data['note'];
     _link = data['link']??'';
     _star = data['star']??false;
+    _temp = data['temp']??false;
   }
-}
+}//added temp variable in 2023
